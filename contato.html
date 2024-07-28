@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Projeto Batman</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="./logo_batman.jpg" />
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="frase1">Quer entrar em contato conosco? </div>
+
+        <div id="frase2"> Envie sua mensagem pelo formulario abaixo e entraremos em contato com você.</div>
+
+        <div id="content-contact">
+            <div class="contact">
+                <div id="imagem"></div>
+                <div id="forms">
+                    <form action="./contato.html">
+                    <div class="input"> 
+                        <label for="text">Nome</label>
+                        <input style="display: block" id="nome" type="text" name="text" placeholder="Digite seu nome completo" required/>
+                    </div>
+
+                    <div class="input"> 
+                        <label for="email">E-mail</label>
+                        <Input style="display: block" id="email" type="email" name="email" placeholder="Digite um E-mail válido" required/>
+                    </div>
+
+                    <div class="input"> 
+                        <label for="text">Assunto</label>
+                        <input style="display: block;" id="assunto" type="text" name="assunto" required/>
+                    </div>
+
+                    <div class="input"> 
+                        <label for="text">Mensagem</label>
+                        <textarea style="display: block;" id="mensagem" type="text" name="mensagem" rows="6" required> </textarea>
+                    </div>
+
+                    <div class="input"> 
+                        <button class="button">Enviar</button>
+                </form>        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <img style="object-fit: contain;" id="logo" src="logo_batman.jpg" />
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Caroline Barros</span>
+
+            <nav class="footer-navegation">
+                <ul class="footes-list">
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+    </body>
